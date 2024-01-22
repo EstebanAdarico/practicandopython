@@ -1,0 +1,10 @@
+<!-- ** extends para que sea una extencion del index -->
+{% extends 'index.html' %}
+{% block content %}
+<ul>
+   <!-- ** forma de ingresar el ciclo for de python en html -->
+   {% for peli in peliculas %}
+   <li>{{peli}}</li>
+   {%endfor%}
+</ul>
+{% endblock %}
