@@ -17,20 +17,14 @@ profesor = Persona("jose", "profesor")
 alumno.Presentacion()
 profesor.Presentacion()
 
-class Person1:
-   def __init__(self,nombre) -> None:
-      self.__nombre = nombre
 
-   def get_nombre(self):
-      return self.__nombre
+
+class Persona2:
+   # creando el medoto contructor
+   def __init__(self, altura , peso):
+      self.alturaDeLaPersona = altura
+      self.pesoDeLaPersona = peso
    
-   def set_nombre(self,nombre):
-      self.__nombre = nombre
+   def Despedida (self):
+      print(f"Hola, mi altura es {self.alturaDeLaPersona}, tambien mi peso es ")
 
-h = Person1("Juan")
-print(h.get_nombre())
-h.set_nombre("Carlos")
-print(h.get_nombre())
-
-estudiante = ('alex',22,'M')
-print(estudiante.index('M'))

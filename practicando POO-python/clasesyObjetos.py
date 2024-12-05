@@ -29,3 +29,6 @@ def discovered (dias,parametro):
          break
 discovered(diasSemana,7)
 
+#los numero romanos, se representan mediante simbolos I V X y L C D M
+
+
