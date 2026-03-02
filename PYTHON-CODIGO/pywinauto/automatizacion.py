@@ -1,11 +1,4 @@
-B) Ventor de escritorio (Windows + pywinauto)
-1) Instalar
-pip install pandas pywinauto
 
-
-Tip: instala Windows 10/11 SDK “Inspect.exe” para ver AutomationId, Name, ClassName de cada control.
-
-2) Script ventor_desktop_rpa.py
 import time
 import logging
 import pandas as pd
