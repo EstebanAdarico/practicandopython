@@ -9,3 +9,5 @@ def media(p):
    suma = suma // recorrido
    return suma
 print(media(personajes_principales))
+
+
